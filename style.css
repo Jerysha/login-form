@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #1abc9c;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 440px;
+    margin: 170px auto;
+    padding: 0 20px;
+}
+
+.wrapper {
+    width: 100%;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.title {
+    border-radius: 5px 5px 0px 0px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    line-height: 80px;
+    background: #16a085;
+}
+
+form {
+    padding: 30px 20px 25px 20px;
+    margin-top: 20px;
+}
+
+.row {
+    height: 45px;
+    position: relative;
+    line-height: 30px;
+    margin-bottom: 15px;
+}
+
+.row input {
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
+    transition: all 0.3s ease;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.row input:focus {
+    border-color: #16a085;
+    box-shadow: inset 0px 0px 2px 2px rgba(26, 188, 156, 0.25);
+}
+
+.row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    background: #1abc9c;
+    text-align: center;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 18;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pass {
+    margin: -10px 0px 15px 0px;
+    cursor: pointer;
+    margin-top: -12px;
+}
+
+.pass a {
+    color: #1abc9c;
+}
+
+.pass a:hover {
+    text-decoration: underline;
+}
+
+.row button {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    background: #16a085;
+    border: 1px solid #16a085;
+    border-radius: 5px;
+}
+
+.row button:hover {
+    transition: all 0.3s ease;
+    background: #12876f;
+}
+
+.sign {
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.sign a {
+    color: black;
+}
+
+.sign span {
+    cursor: pointer;
+    color: #1abc9c;
+}
+
+.sign span:hover {
+    text-decoration: underline;
+}
